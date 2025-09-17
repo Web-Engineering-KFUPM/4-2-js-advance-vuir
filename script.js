@@ -50,6 +50,13 @@ Task:
 1) Make an object used as a "map" (key → value), e.g., course codes → titles.
 2) Iterate over it with for...in and display each key and value.
 */
+const courseCodes = {
+   ICS321: "Database", 
+   SWE363: "Data Web Engineering and Development"
+ };
+ for (const key in courseCodes) {
+   console.log(key + ": " + courseCodes[key]);
+ };
 
 // =========================================
 // TODO-3: STRING OBJECT — charAt() & length
