@@ -66,7 +66,10 @@ Task:
 1) Create a String object or plain string.
 2) Use .charAt(index) and .length to output characters and size.
 */
-
+const str= "My Cat's name is Taco";
+console.log(str.length);
+console.log(str.charAt(7));
+console.log(str.charAt(0));
 // ===================================
 // TODO-4: DATE — day, month, and year
 // ===================================
@@ -76,6 +79,10 @@ Task:
 2) Find and display the current day of month, month (0–11), and year.
 //    (Hint: getDate(), getMonth(), getFullYear() )
 */
+const datee = new Date();
+console.log(datee.getDate());
+console.log(datee.getMonth() + 1 );
+console.log(datee.getFullYear());
 
 // ============================================================
 // TODO-5: ARRAY + SPREAD — find MIN and MAX from 10 numbers
