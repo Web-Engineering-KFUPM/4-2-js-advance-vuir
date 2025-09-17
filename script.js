@@ -93,7 +93,11 @@ Task:
 2) Use spread syntax with Math.min(...) and Math.max(...) to find extremes.
 3) Display both values.
 */
-
+const numbers = [2, 5 , 1, 6, 7, 8, 4, 9, 3, 0];
+const minV = Math.min(...numbers);
+const maxV = Math.max(...numbers);
+console.log("Min: " + minV);
+console.log("Max: " + maxV);
 // ===================================================================
 // TODO-6: EXCEPTIONS — try/catch/finally with EMPTY ARRAY edge case
 // ===================================================================
